@@ -21,13 +21,11 @@
 		3022FD3D18485A530018AE79 /* CustomFontTesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3022FD3C18485A530018AE79 /* CustomFontTesterTests.m */; };
 		3022FD4718485A620018AE79 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3022FD4618485A620018AE79 /* Storyboard.storyboard */; };
 		3022FD4A18485BF00018AE79 /* RSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3022FD4918485BF00018AE79 /* RSMainViewController.m */; };
-		3063567F194CAC53000B7CCF /* UIFont+RSCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 309138981947FC4F0044563D /* UIFont+RSCustom.m */; };
-		30635680194CAC5B000B7CCF /* customFont.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3091389A1947FC5C0044563D /* customFont.plist */; };
-		3074490718485D1D0074C694 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3074490618485D1D0074C694 /* Roboto-Medium.ttf */; };
-		3074490918485D2D0074C694 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3074490818485D2D0074C694 /* Roboto-Light.ttf */; };
-		3074490A18485D630074C694 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3074490518485D0D0074C694 /* Roboto-Regular.ttf */; };
-		309138991947FC4F0044563D /* UIFont+RSCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 309138981947FC4F0044563D /* UIFont+RSCustom.m */; };
-		3091389B1947FC5C0044563D /* customFont.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3091389A1947FC5C0044563D /* customFont.plist */; };
+		C8ACEC52194D045F00F5CBC1 /* UIFont+ZJCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ACEC4F194D045E00F5CBC1 /* UIFont+ZJCustom.m */; };
+		C8ACEC53194D045F00F5CBC1 /* customPreferredFontLato.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8ACEC51194D045F00F5CBC1 /* customPreferredFontLato.plist */; };
+		C8ACEC60194D051600F5CBC1 /* Lato-Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8ACEC55194D051600F5CBC1 /* Lato-Reg.ttf */; };
+		C8ACEC61194D051600F5CBC1 /* Lato-Lig.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8ACEC56194D051600F5CBC1 /* Lato-Lig.ttf */; };
+		C8ACEC67194D051600F5CBC1 /* Lato-Bol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8ACEC5C194D051600F5CBC1 /* Lato-Bol.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,12 +58,12 @@
 		3022FD4618485A620018AE79 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		3022FD4818485BF00018AE79 /* RSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSMainViewController.h; sourceTree = "<group>"; };
 		3022FD4918485BF00018AE79 /* RSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSMainViewController.m; sourceTree = "<group>"; };
-		3074490518485D0D0074C694 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
-		3074490618485D1D0074C694 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
-		3074490818485D2D0074C694 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
-		309138971947FC4F0044563D /* UIFont+RSCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+RSCustom.h"; path = "../UIFont+RSCustom.h"; sourceTree = "<group>"; };
-		309138981947FC4F0044563D /* UIFont+RSCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIFont+RSCustom.m"; path = "../UIFont+RSCustom.m"; sourceTree = "<group>"; };
-		3091389A1947FC5C0044563D /* customFont.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = customFont.plist; path = ../customFont.plist; sourceTree = "<group>"; };
+		C8ACEC4F194D045E00F5CBC1 /* UIFont+ZJCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+ZJCustom.m"; sourceTree = "<group>"; };
+		C8ACEC50194D045E00F5CBC1 /* UIFont+ZJCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+ZJCustom.h"; sourceTree = "<group>"; };
+		C8ACEC51194D045F00F5CBC1 /* customPreferredFontLato.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = customPreferredFontLato.plist; sourceTree = "<group>"; };
+		C8ACEC55194D051600F5CBC1 /* Lato-Reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Reg.ttf"; sourceTree = "<group>"; };
+		C8ACEC56194D051600F5CBC1 /* Lato-Lig.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Lig.ttf"; sourceTree = "<group>"; };
+		C8ACEC5C194D051600F5CBC1 /* Lato-Bol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bol.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,15 +93,13 @@
 		3022FD0B18485A520018AE79 = {
 			isa = PBXGroup;
 			children = (
-				309138971947FC4F0044563D /* UIFont+RSCustom.h */,
-				309138981947FC4F0044563D /* UIFont+RSCustom.m */,
-				3091389A1947FC5C0044563D /* customFont.plist */,
 				3022FD4618485A620018AE79 /* Storyboard.storyboard */,
 				3022FD4818485BF00018AE79 /* RSMainViewController.h */,
 				3022FD4918485BF00018AE79 /* RSMainViewController.m */,
-				3074490818485D2D0074C694 /* Roboto-Light.ttf */,
-				3074490518485D0D0074C694 /* Roboto-Regular.ttf */,
-				3074490618485D1D0074C694 /* Roboto-Medium.ttf */,
+				C8ACEC4F194D045E00F5CBC1 /* UIFont+ZJCustom.m */,
+				C8ACEC50194D045E00F5CBC1 /* UIFont+ZJCustom.h */,
+				C8ACEC51194D045F00F5CBC1 /* customPreferredFontLato.plist */,
+				C8ACEC6A194D051E00F5CBC1 /* Lato */,
 				3022FD1D18485A520018AE79 /* CustomFontTester */,
 				3022FD3618485A530018AE79 /* CustomFontTesterTests */,
 				3022FD1618485A520018AE79 /* Frameworks */,
@@ -169,6 +165,16 @@
 				3022FD3918485A530018AE79 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8ACEC6A194D051E00F5CBC1 /* Lato */ = {
+			isa = PBXGroup;
+			children = (
+				C8ACEC55194D051600F5CBC1 /* Lato-Reg.ttf */,
+				C8ACEC56194D051600F5CBC1 /* Lato-Lig.ttf */,
+				C8ACEC5C194D051600F5CBC1 /* Lato-Bol.ttf */,
+			);
+			name = Lato;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,13 +253,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3074490718485D1D0074C694 /* Roboto-Medium.ttf in Resources */,
-				3074490A18485D630074C694 /* Roboto-Regular.ttf in Resources */,
+				C8ACEC53194D045F00F5CBC1 /* customPreferredFontLato.plist in Resources */,
+				C8ACEC67194D051600F5CBC1 /* Lato-Bol.ttf in Resources */,
 				3022FD2218485A530018AE79 /* InfoPlist.strings in Resources */,
-				3074490918485D2D0074C694 /* Roboto-Light.ttf in Resources */,
-				3091389B1947FC5C0044563D /* customFont.plist in Resources */,
 				3022FD2A18485A530018AE79 /* Images.xcassets in Resources */,
 				3022FD4718485A620018AE79 /* Storyboard.storyboard in Resources */,
+				C8ACEC60194D051600F5CBC1 /* Lato-Reg.ttf in Resources */,
+				C8ACEC61194D051600F5CBC1 /* Lato-Lig.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +267,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30635680194CAC5B000B7CCF /* customFont.plist in Resources */,
 				3022FD3B18485A530018AE79 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,7 +281,7 @@
 				3022FD4A18485BF00018AE79 /* RSMainViewController.m in Sources */,
 				3022FD2418485A530018AE79 /* main.m in Sources */,
 				3022FD2818485A530018AE79 /* RSAppDelegate.m in Sources */,
-				309138991947FC4F0044563D /* UIFont+RSCustom.m in Sources */,
+				C8ACEC52194D045F00F5CBC1 /* UIFont+ZJCustom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +289,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3063567F194CAC53000B7CCF /* UIFont+RSCustom.m in Sources */,
 				3022FD3D18485A530018AE79 /* CustomFontTesterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -26,9 +26,9 @@
 	<true/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Roboto-Light.ttf</string>
-		<string>Roboto-Medium.ttf</string>
-		<string>Roboto-Regular.ttf</string>
+		<string>Lato-Reg.ttf</string>
+		<string>Lato-Lig.ttf</string>
+		<string>Lato-Bol.ttf</string>
 	</array>
 	<key>UIMainStoryboardFile</key>
 	<string>Storyboard</string>

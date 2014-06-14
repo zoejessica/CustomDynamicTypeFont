@@ -7,7 +7,7 @@
 //
 
 #import "RSMainViewController.h"
-#import "UIFont+RSCustom.h"
+#import "UIFont+ZJCustom.h"
 
 @interface RSMainViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *labelBody;
@@ -21,8 +21,7 @@
 
 @implementation RSMainViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
@@ -30,27 +29,18 @@
     return self;
 }
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 
-    // check fonts is property installed
-    UIFontDescriptor *robotoDescriptor = [UIFontDescriptor fontDescriptorWithFontAttributes:@{UIFontDescriptorFamilyAttribute:@"Roboto"}];
-    NSArray *matches = [robotoDescriptor matchingFontDescriptorsWithMandatoryKeys:nil];
-    NSLog(@"matches: %@", matches);
-
     [self sizeChanged:nil];
-
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(sizeChanged:)
                                                  name:UIContentSizeCategoryDidChangeNotification
                                                object:nil];
-
 }
 
--(void) sizeChanged:(id) sender {
-
+- (void)sizeChanged:(id)sender {
     self.labelBody.font = [UIFont customFontForTextStyle:UIFontTextStyleBody];
     self.labelCaption1.font = [UIFont customFontForTextStyle:UIFontTextStyleBody];
     self.labelCaption2.font = [UIFont customFontForTextStyle:UIFontTextStyleCaption2];
@@ -67,13 +57,7 @@
 
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
--(void)dealloc {
+- (void)dealloc {
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
